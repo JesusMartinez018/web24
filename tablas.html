@@ -1,0 +1,336 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Curso HTML5-CSS3</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <div class="container shadow">
+        <header>
+            <div class="row align-items-center">
+                <div class="col-3"><img src="img/logoiesfseif.png" alt="logo" width="250"></div>
+                <div class="col-9">
+                    <span id="btnmenu" onclick="opendrawer()">&#9776;</span>
+                    <nav id="menu">
+                        <ul class="text-right">
+                            <li>
+                                <a href="index.html">
+                                    Home
+                                </a>
+                            </li>
+                            <li>
+                                <a href="parrafos.html">
+                                    Párrafos
+                                </a>
+                            </li>
+                            <li>
+                                <a href="enlaces.html">
+                                    Enlaces
+                                </a>
+                            </li>
+                            <li>
+                                <a href="listas.html">
+                                    Listas
+                                </a>
+                            </li>
+                            <li>
+                                <a href="tablas.html">
+                                    Tablas
+                                </a>
+                            </li>
+                            <li>
+                                <a href="formularios.html">
+                                    Formularios
+                                </a>
+                            </li>
+                            <li>
+                                <a href="multimedia.html">
+                                    Multimedia
+                                </a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+
+
+        </header>
+        <main class="shadow">
+            <div class="px-3">
+                <h1 class="text-center bg-azul-o text-white py-3">HTML5 & CSS3</h1>
+            </div>
+            <div class="px-3">
+                <hr>
+            </div>
+            <div class="p-3">
+                <div id="tablas" class="py-3">
+                    <h2 class="text-center">TABLAS</h2>
+                    <h3>Tabla con encabezado de fila:</h3>
+                    <table class="tef" border="1">
+                        <tr>
+                            <th>File</th>
+                            <th>Edit</th>
+                            <th>Selection</th>
+                            <th>View</th>
+                        </tr>
+                        <tr>
+                            <td>New Test File</td>
+                            <td>Undo</td>
+                            <td>Select All</td>
+                            <td>Explorer</td>
+                        </tr>
+                        <tr>
+                            <td>New File</td>
+                            <td>Redo</td>
+                            <td>Expand Selecciton</td>
+                            <td>Search</td>
+                        </tr>
+                        <tr>
+                            <td>New Window</td>
+                            <td>Cut</td>
+                            <td>Shrink Selecction</td>
+                            <td>Run</td>
+                        </tr>
+                        <tr>
+                            <td>New Window with profile</td>
+                            <td>Copy</td>
+                            <td>Copy Line Up</td>
+                            <td>Extensions</td>
+                        </tr>
+                        <tr>
+                            <td>Open File</td>
+                            <td>Paste</td>
+                            <td>Copu Line Down</td>
+                            <td>Terminal</td>
+                        </tr>
+                    </table>
+                    <h3>Tabla con encabezado de columna:</h3>
+                    <table border="1">
+                        <tr>
+                            <th>File</th>
+                            <td>hola</td>
+                            <td>adios</td>
+                            <td>tenedor</td>
+                        </tr>
+                        <tr>
+                            <th>Edit</th>
+                            <td>adios</td>
+                            <td>hola</td>
+                            <td>tenedor</td>
+                        </tr>
+                        <tr>
+                            <th>Selection</th>
+                            <td>tenedor</td>
+                            <td>adios</td>
+                            <td>hola</td>
+                        </tr>
+                        <tr>
+                            <th>View</th>
+                            <td>tenedor</td>
+                            <td>hola</td>
+                            <td>adios</td>
+                        </tr>
+                        <tr>
+                            <th>Go</th>
+                            <td>hola</td>
+                            <td>adios</td>
+                            <td>tenedor</td>
+                        </tr>
+                        <tr>
+                            <th>Run</th>
+                            <td>tenedor</td>
+                            <td>hola</td>
+                            <td>adios</td>
+                        </tr>
+                    </table>
+                    <h3>Tabla con encabezado de fila y columna:</h3>
+                    <table class="ecabezadofc" border="1">
+                        <tr>
+                            <th>nregrita</th>
+                            <th>nregrita</th>
+                            <th>nregrita</th>
+                            <th>nregrita</th>
+                        </tr>
+                        <tr>
+                            <th>nregrita</th>
+                            <td>txt normal</td>
+                            <td>txt normal</td>
+                            <td>txt normal</td>
+                        </tr>
+                        <tr>
+                            <th>nregrita</th>
+                            <td>txt normal</td>
+                            <td>txt normal</td>
+                            <td>txt normal</td>
+                        </tr>
+                        <tr>
+                            <th>nregrita</th>
+                            <td>txt normal</td>
+                            <td>txt normal</td>
+                            <td>txt normal</td>
+                        </tr>
+                        <tr>
+                            <th>nregrita</th>
+                            <td>txt normal</td>
+                            <td>txt normal</td>
+                            <td>txt normal</td>
+                        </tr>
+                        <tr>
+                            <th>nregrita</th>
+                            <td>txt normal</td>
+                            <td>txt normal</td>
+                            <td>txt normal</td>
+                        </tr>
+                    </table>
+                    <h3>Tabla con combinacion de filas y columnas</h3>
+                    <table  border="1">
+                        <tr>
+                            <td rowspan="3">Texto</td>
+                            <td>Texto</td>
+                            <td>Texto</td>
+                            <td>Texto</td>
+                        </tr>
+                        <tr>
+                            <td>Texto</td>
+                            <td>Texto</td>
+                            <td>Texto</td>
+                        </tr>
+                        <tr>                           
+                            <td>Texto</td>
+                            <td>Texto</td>
+                            <td>Texto</td>
+                        </tr>
+                        <tr>
+                            <th colspan="4">Texto largo</th>
+                        </tr>
+                        <tr>
+                            <td>Texto</td>
+                            <td>Texto</td>
+                            <td>Texto</td>
+                            <td>Texto</td>
+                        </tr>
+                        <tr>
+                            <td>Texto</td>
+                            <td>Texto</td>
+                            <td>Texto</td>
+                            <td>Texto</td>
+                        </tr>
+                    </table>
+                    <h3>Tablas con diseño diferente filas pares impares</h3>
+                    <table class="diseñodiferente" border="0">
+                        <tr>
+                            <td>content1</td>
+                            <td>content2</td>
+                            <td>content3</td>
+                            <td>content4</td>
+                        </tr>
+                        <tr>
+                            <td>content1</td>
+                            <td>content2</td>
+                            <td>content3</td>
+                            <td>content4</td>
+                        </tr>
+                        <tr>
+                            <td>content1</td>
+                            <td>content2</td>
+                            <td>content3</td>
+                            <td>content4</td>
+                        </tr>
+                        <tr>
+                            <td>content1</td>
+                            <td>content2</td>
+                            <td>content3</td>
+                            <td>content4</td>
+                        </tr>
+                        <tr>
+                            <td>content1</td>
+                            <td>content2</td>
+                            <td>content3</td>
+                            <td>content4</td>
+                        </tr>
+                        <tr>
+                            <td>content1</td>
+                            <td>content2</td>
+                            <td>content3</td>
+                            <td>content4</td>
+                        </tr>
+                    </table>
+                    <table class="horario" border="1">
+                        <tr>
+                            <th class="titulo" colspan="6">S1DAM</th>
+                        </tr>
+                        <tr>
+                            <th  class="ñ">/~\</th>
+                            <th  class="dias">Lunes</th>
+                            <th  class="dias">Martes</th>
+                            <th  class="dias">Miercoles</th>
+                            <th  class="dias">Jueves</th>
+                            <th  class="dias">Viernes</th>
+                        </tr>
+                        <tr>
+                            <th class="hora">8:15<br />9:10</th>
+                            <th class="BDD" rowspan="2">BDD<br />León Dí, JuEf<br />(1 B-302)</th>
+                            <th class="PROG" rowspan="2">PROG<br />León Dí, JuEf<br />(1 B-302)</th>
+                            <th class="SISI" rowspan="2">SISI<br />Mart Ru, To<br />(1 B-302)</th>
+                            <th class="LMSG">LMSG<br />Puli. Mo, FrJo<br />(1 B-302)</th>
+                            <th class="PIMD">PIMD<br />León Dí, JuEf<br />(1 B-302)</th>
+                        </tr>
+                        <tr>
+                            <th class="hora">9:10<br />10:05</th>
+                            <th class="IPCG">IPCG<br />Guti Sa, JoÁn<br />(1 B-302)</th>
+                            <th class="ENDE">ENDE<br />Polo Or, Ed<br />(1 B-302)</th>
+                        </tr>
+                        <tr>
+                            <th class="hora">10:05<br>11:00</th>
+                            <th class="SASP">SASP<br />Gall. Cr, Di<br />(1 B-302)</th>
+                            <th class="DASP">DASP<br />Gall. Cr, Di<br />(1 B-302)</th>
+                            <th class="IPE-">IPE-<br />Marin Ca, RoMa<br />(1 B-302)</th>
+                            <th class="BDD">BDD<br />León Dí, JuEf<br />(1 B-302)</th>
+                            <th class="IPE-">IPE-<br />Marin Ca, RoMa<br />(1 B-302)</th>
+                        </tr>
+                        <tr>
+                            <th></th>
+                            <th class="recreo" colspan="5">recreo</th>
+                        </tr>
+                        <tr>
+                            <th class="hora">11:30<br />12:25</th>
+                            <th class="IPE-">IPE-<br />Marin Ca, RoMa<br />(1 B-302)</th>
+                            <th class="SISI" rowspan="2">SISI<br />Mart Ru, To<br />(1 B-302)</th>
+                            <th class="LMSG" rowspan="2">LMSG<br />Puli. Mo, FrJo<br />(1 B-302)</th>
+                            <th class="BDD">BDD<br />León Dí, JuEf<br />(1 B-302)</th>
+                            <th class="PROG" rowspan="2">PROG<br />León Dí, JuEf<br />(1 B-302)</th>
+                        </tr>
+                        <tr>
+                            <th class="hora">12:25<br />13:20</th>
+                            <th class="PROG" rowspan="2">PROG<br />León Dí, JuEf<br />(1 B-302)</th>
+                            <th class="ENDE">ENDE<br />Polo Or, Ed<br />(1 B-302)</th>
+                        </tr>
+                        <tr>
+                            <th class="hora">13:20<br />14:15</th>
+                            <th class="BDD">BDD<br />León Dí, JuEf<br />(1 B-302)</th>
+                            <th class="IPCG">IPCG<br />Guti Sa, JoÁn<br />(1 B-302)</th>
+                            <th class="SISI">SISI<br />Mart Ru, To<br />(1 B-302)</th>
+                            <th class="DASP">DASP<br />Gall. Cr, Di<br />(1 B-302)</th>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+
+        </main>
+        <footer>
+            <h1 class="bg-azul-o text-center text-white py-3">&copy; Jesús Martínez </h1>
+        </footer>
+    </div>
+    <script>
+        function opendrawer() {
+            document.getElementById('menu').style.display = 'block';
+            document.getElementById('menu').style.witdh = '100%';
+        }
+    </script>
+</body>
+
+</html>
