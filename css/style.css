@@ -235,7 +235,7 @@ h1 {
     list-style-type:decimal ;
 }
 .Descustomico li li {
-    list-style-image: url(img/pelota.png);
+    list-style-image: url(../img/pelota.png);
 }
 .Descustomico li li li{
     list-style-image: none;
