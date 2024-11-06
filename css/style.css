@@ -1,10 +1,11 @@
 body {
     margin: 0;
+    background-color: #010025;
 }
 
 * {
     box-sizing: border-box;
-    color: rgb(18, 0, 110);
+    color: rgb(255, 255, 255);
 }
 
 /* For desktop: */
@@ -101,7 +102,7 @@ body {
 }
 
 .shadow {
-    box-shadow: 0 0 20px gainsboro;
+    box-shadow: 0 0 20px #83b8f5;
     border-radius: 10px;
 }
 nav ul{
@@ -123,16 +124,16 @@ nav li {
         font-size: 30px;
     }
     nav ul {
-        background-color: rgb(243, 251, 254);
+        background-color: #83b8f5;
     }
 }
 
 nav li a {
-    color: rgb(18, 0, 110);
+    color: rgb(255, 255, 255);
 }
 
 nav li:hover {
-    background-color:  rgb(225, 245, 253);
+    background-color:  #83b8f5;
 }
 
 .text-right{
@@ -156,10 +157,10 @@ a {
 }
 
 .bg-azul-o {
-    background-color: rgb(0 157 222);
+    background-color: #83b8f5;
 }
 .bg-azul-c {
-    background-color: rgb(240, 249, 252);
+    background-color: rgb(252, 240, 240);
 }
 .bg-orange {
     background-color: orange;
@@ -202,12 +203,12 @@ h1 {
     }
 }
 .etiqueta {
-    color: crimson;
+    color: rgb(240, 119, 6);
     font-weight: bold;
     font-size: 28px;
 }
 .atributo {
-    color: darkmagenta;
+    color: rgb(206, 13, 174);
     font-weight: bold;
     font-size: 28px;
 }
@@ -246,9 +247,21 @@ h1 {
     font-size: 24px;
     display: inline;
 }
+.tef {
+    border-color: white;
+}
+.tec {
+    border-color: white;
+}
 .ecabezadofc th {
     background-color: darkmagenta;
     color: aliceblue;
+}
+.ecabezadofc {
+    border-color: white;
+}
+.tcfc {
+    border-color: white;
 }
 .diseñodiferente tr:nth-child(odd) td{
     background-color: red;
@@ -260,22 +273,30 @@ h1 {
     width: 70%;
     margin: 0 auto;
     font-family: Arial, Helvetica, sans-serif;
+    border-color: white;
 }
 .titulo {
     color: #0a8683;
     font-style: italic;
     font-size: 24px;
+    background-color: white;
 }
 .dias {
     color: #0a8683; 
     font-weight: lighter;
+    background-color: white;
 }
 .hora {
     color: #0a8683; 
+    background-color: white;
 }
 .ñ {
     color: #0a8683; 
     font-weight:bolder;
+    background-color: white;
+}
+.rellenohor {
+    background-color: white;
 }
 .BDD {
     background-color: #81ff81;
@@ -329,6 +350,7 @@ h1 {
 }
 .recreo {
     color: #0a8683;
+    background-color: white;
 }
 .formlogin {
     float: left;
@@ -351,13 +373,13 @@ h1 {
     padding: 10px 25px;
     border-radius: 8px;
     color: white;
-    background-color: #160344;
+    background-color: #83b8f5;
 }
 .cb {
     clear: both;
 }
 .InputsHTML5c {
-    background-color: rgb(90, 175, 190);
+    background-color: #b2fdfd;
 }
 .titulohtml5 {
     background-color: #160344;
@@ -372,7 +394,7 @@ h1 {
     background-color: #4e0606;
 }
 .InputsHTML5 label {
-    background-color: #e43e3b;
+    background-color: #83b8f5;
     color: #3d0000;
 
 }
